@@ -53,8 +53,8 @@ b = [
 %% 
 % Write the linear equality constraints. 
 Aeq = [
-    1,1,1,1,-2/3,-2/3,-2/3,-2/3,0,0,0,0;
-    1,1,1,1,0,0,0,0,-6/5,-6/5,-6/5,-6/5;
+    1,1,1,1,-2/3,-2/3,-2/3,-2/3,0,0,0,0; % front:center
+    1,1,1,1,0,0,0,0,-6/5,-6/5,-6/5,-6/5; % front:back
     % make sure the ratios of front:center:back are equal
     ];
 beq = [0,0];
@@ -72,7 +72,7 @@ ub = [Inf,Inf,Inf,Inf;Inf,Inf,Inf,Inf;Inf,Inf,Inf,Inf];
 options = optimoptions('intlinprog','Display','off');
 [x,f,~,~] = intlinprog(maximiseFunction,integers,A,b,Aeq,beq,lb,ub,options);
 
-f = f*-1;
-x = x/2;
-x = vec2mat(x,4);
+f = f*-1; % format f
+x = x/2; % format x was in half tonnes now in tonnes
+x = vec2mat(x,4); % make it look pretty
 end

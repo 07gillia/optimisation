@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.6)  27 FEB 2017 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.6)  28 FEB 2017 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -833,30 +833,22 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 61.
 
-
-Class scrartcl Warning: incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input li
-ne 62.
-
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 65.
+(Font)              scaled to size 10.07397pt on input line 64.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 65.
+(Font)              scaled to size 7.63599pt on input line 64.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 65.
+(Font)              scaled to size 5.51999pt on input line 64.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 65.
+(Font)              scaled to size 10.07397pt on input line 64.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 65.
+(Font)              scaled to size 7.63599pt on input line 64.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 65.
+(Font)              scaled to size 5.51999pt on input line 64.
 <one_one.png, id=4, 1107.13625pt x 547.04375pt>
 File: one_one.png Graphic file (type png)
  <use one_one.png>
-Package pdftex.def Info: one_one.png used on input line 76.
+Package pdftex.def Info: one_one.png used on input line 75.
 (pdftex.def)             Requested size: 452.96796pt x 223.81358pt.
 
 
@@ -865,47 +857,47 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 79.
-
-
-Class scrartcl Warning: incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input li
-ne 91.
+ne 83.
 
 [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./one_o
 ne.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
+
+Class scrartcl Warning: incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 95.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
+[2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
  ) 
 Here is how much of TeX's memory you used:
- 12576 strings out of 493014
- 198994 string characters out of 6133351
- 401066 words of memory out of 5000000
- 15851 multiletter control sequences out of 15000+600000
- 92078 words of font info for 128 fonts, out of 8000000 for 9000
+ 12535 strings out of 493014
+ 198495 string characters out of 6133351
+ 400066 words of memory out of 5000000
+ 15843 multiletter control sequences out of 15000+600000
+ 78085 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,51p,8509b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on report.pdf (2 pages, 153399 bytes).
+Output written on report.pdf (2 pages, 153561 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 36870 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 36 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 22022 words of extra memory for PDF output out of 24883 (max. 10000000)
 
